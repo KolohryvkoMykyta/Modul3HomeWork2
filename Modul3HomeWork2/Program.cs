@@ -2,7 +2,7 @@
 
 var book = new ContactBook();
 
-book.AddRangeOfContacts(new Contact[] 
+book.AddRangeOfContacts(new Contact[]
 {
     new Contact
     {
@@ -28,7 +28,7 @@ book.AddRangeOfContacts(new Contact[]
     }
 });
 
-book.AddContact(new Contact() { Name = "Микита", Surname = "", Email = "gfddgdfg", Phone = "0575467790" });
+book.AddContact(new Contact() { Name = "Микита", Surname = string.Empty, Email = "gfddgdfg", Phone = "0575467790" });
 
 var myContact = book["Микита", "Кологривко"];
 
